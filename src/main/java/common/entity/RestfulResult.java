@@ -6,8 +6,7 @@ public class RestfulResult {
     private String message;
     private Object data;		// 返回数据
     private int cntPage;		// page数
-    private long cntData;		// 返回数据总数
-    private long test;		// 测试
+    private long cntData;		// 返回数据总
 
     public String getResult() {
         return result;
